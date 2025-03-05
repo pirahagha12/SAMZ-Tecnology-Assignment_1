@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #e9e0e0;
+            text-align: center;
+            padding: 20px;
+        }
+        h1{
+            color: coral;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            
+            border-right:  2px solid #666;
+            width: 0;
+            animation: cursor 3s steps(50, end) forwards, blink 0.75s step-end infinite;
+
+        }
+        @keyframes cursor{
+            from {width: 0;}
+            to {width: 100% }
+        }
+       
+        @keyframes blink {
+            from, to { border-color: transparent; }  
+        }
+        h2{
+            color: #555;
+        }
+        h2:hover{
+            color: coral;
+        }
+        
+        p{
+            font-size: 18px;
+            color: #666666;
+        }
+        
+        ul{
+            list-style-type: square;
+            text-align: left;
+            display: inline-block;
+            padding: 5px;
+            align-items: center;
+           
+        }
+        li{
+            margin-left: 30px;
+        }
+        
+        .container{
+            background: white;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-top: 10px;
+            border: 3px solid #333;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        a:hover{
+            color: #0056b3;
+        }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My WebPage!</h1>
+        <h2>About Me</h2>
+        
+        <p>Hello! My name is Pirah Agha. I am a Computer Science graduate with a strong passion
+         for Web Development. I enjoy creating visually appealing and user-friendly websites, focusing on front-end technologies.</p>
+
+       <ul>
+        <h2>My Hobbies</h2>
+        <li>Coading</li>
+        <li>Reading</li>
+        <li>Painting</li>
+        <li>Cooking</li>
+    </ul>
+
+    <h2>My Picture</h2>
+    <img src="profile Image.jpg" alt="Profile Picture">
+
+    <h2>GitHub Website</h2>
+    <a href="https://github.com/pirahagha12/SAMZ-Tecnology-Assignment_1">Vist GitHub</a>
+    </div>
+    
+</body>
+</html>
