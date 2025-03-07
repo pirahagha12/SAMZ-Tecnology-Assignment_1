@@ -1,1 +1,1 @@
-# SAMZ-Tecnology-Assignment_1
+# SAMZ-Tecnology-Assignments
