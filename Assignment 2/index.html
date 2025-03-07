@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+         nav ul li a{
+            color: white;
+            text-decoration: none;
+         }
+          nav ul li a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+    
+    </style>
+</head>
+
+
+<body style="font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0;">
+
+    
+    <header style="background-color: #434343; color: white; padding: 20px; font-size: 24px;">My Portfolio</header>
+    <nav>
+        <ul style="list-style: none; padding: 5px; background: #a7a0a0; margin: 0; overflow: hidden;">
+            <li style="display: inline; margin: 0 15px;"><a href="#about">About </a></li>
+            <li style="display: inline; margin: 0 15px;"><a href="#projects">Projects</a></li>
+            <li style="display: inline; margin: 0 15px;"><a href="#myskills">My Skills</a></li>
+            <li style="display: inline; margin: 0 15px;"><a href="#contact">Contact </a></li>
+        
+        </ul>
+    </nav>
+
+    <section id="about" style="margin: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+        <h2>About Me</h2>
+        <p>Hello! My name is Pirah, and I am a web developer. I enjoy building creative websites.</p>
+    </section>
+
+
+    <section id="projects" style="margin: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+        <h2>Projects</h2>
+        <h3> portfolio Website</h3>
+        <p>A Personal website to showcase my work </p>
+        <h3>Blog Platform</h3>
+        <p>A blog where users can post and read articles.</p>
+        <h3>To-Do List App</h3>
+        <p>An app to manage daily tasks efficiently.</p>
+    </section>
+
+
+    <section id="myskills" style="margin: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+        <h2>My Skills</h2>
+
+        <table   style=" width:100%;border-collapse: collapse; margin-top: 10px;">
+
+            <tr style="background: rgb(216, 215, 215);">
+                <th style="border: 1px solid #ddd; padding: 10px;">Skills</th>
+                <th style="border: 1px solid #ddd; padding: 10px;">Proficiency</th>
+            </tr>
+            <tr>
+                <td  style="border: 1px solid #ddd; padding: 10px;">HTML</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Advanced</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">CSS</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Intermediate</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">JavaScript</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Beginner</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="contact" style="margin: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+        <h2>Contact Me</h2>
+        <form>
+              <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"><br>
+              <input type="email" name="email" placeholder="Your Email"  required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"><br>
+              <textarea name="message" placeholder="Your Message"  required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"></textarea> <br>
+              <input type="submit" value="Send Message" style="background: #333; color: white; cursor: pointer; border: none; padding: 10px; border-radius: 5px; width: 100%;" >
+        </form>
+    </section>
+
+    <section style="margin: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+        <h2>Sample Video</h2>
+        <video controls style="width: 100%; max-width: 600px; margin-top: 10px;">
+            <source src="sample video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</body>
+
+
+</body>
+</html>
